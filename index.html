@@ -4,43 +4,46 @@
     <meta charset="UTF-8" />
     <title>Домашня робота. Таблиця</title>
     <style>
-      body{background: #3a3939;}
+      body{background: #3a3939;
+        font-family: sans-serif}
       table {
-    width: 700px;
+    width: 500px;
     border-spacing: 0;
     border: 2px solid #5e5b5b;
     border-radius: 10px;
     margin: 30px;
-    color: #cecfcd}
-    th, td{
+    color: #cecfcd;}
+    td{
     border-bottom: 1px solid #5e5b5b;
     padding: 10px;
 }
-   .fri {font-size: 10px}
+   .fri {font-size: 10px;}
+   .solid{font-weight: bold}
+   .ligh{color: hsl(0, 3%, 59%);}
 
     </style>
   </head>
 
   <body>
     <table>
-      <tr>
+      <tr class=solid>
         <td>Ім'я <span class=fri>&#9660</span></td>
         <td>Дата</td>
         <td></td>
       </tr>
       <tr>
         <td>Файл.pdf</td>
-        <td>3 хвилини тому</td>
+        <td class="ligh">3 хвилини тому</td>
         <td>···</td>
       </tr>
       <tr>
         <td>Файл.pdf</td>
-        <td>Вчора</td>
+        <td class="ligh">Вчора</td>
         <td>···</td>
       </tr>
       <tr>
         <td>Файл.pdf</td>
-        <td>3 квітня 2018 року</td>
+        <td class="ligh">3 квітня 2018 року</td>
         <td>···</td>
       </tr>
     </table>
