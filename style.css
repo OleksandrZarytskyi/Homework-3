@@ -3,7 +3,7 @@ body {
   font-family: sans-serif;
 }
 table {
-  width: 500px;
+  width: 600px;
   border-spacing: 0;
   border: 3px solid #5e5b5b;
   border-radius: 10px;
@@ -20,5 +20,7 @@ td {
 .ligh {
   color: hsl(0, 3%, 59%);
 }
-
+.imegn {
+  float: right;
+  width: 50px;
 }
