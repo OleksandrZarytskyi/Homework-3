@@ -3,32 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <title>Домашня робота. Таблиця</title>
-    <style>
-      body{background: #3a3939;
-        font-family: sans-serif}
-      table {
-    width: 500px;
-    border-spacing: 0;
-    border: 2px solid #5e5b5b;
-    border-radius: 10px;
-    margin: 30px;
-    color: #cecfcd;}
-    td{
-    border-bottom: 1px solid #5e5b5b;
-    padding: 10px;
-}
-   .fri {font-size: 10px;}
-   .solid{font-weight: bold}
-   .ligh{color: hsl(0, 3%, 59%);}
-
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <table>
-      <tr class=solid>
-        <td>Ім'я <span class=fri>&#9660</span></td>
-        <td>Дата</td>
+      <tr>
+        <td><strong>Ім'я</strong><span class=fri>&#9660</span></td>
+        <td><strong>Дата</strong></td>
         <td></td>
       </tr>
       <tr>
@@ -47,5 +29,49 @@
         <td>···</td>
       </tr>
     </table>
+    <table>
+     <tr>
+        <td><input type="checkbox" class="nama" name="nani"><label for="nama"><strong>Ім'я</strong> <span class=fri>&#9660</span></label></td>
+        <td><strong>Дата</strong></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" class="namer" name="nani"><label for="namer">Файл.pdf</label></td>
+        <td class="ligh">3 хвилини тому</td>
+        <td>···</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" class="namet" name="nani"><label for="namet">Файл.pdf</label></td>
+        <td class="ligh">Вчора</td>
+        <td>···</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" class="namey" name="nani"><label for="namet">Файл.pdf</label></td>
+        <td class="ligh">3 квітня 2018 року</td>
+        <td>···</td>
+      </tr>
+    </table>
+    <table>
+      <tr>
+         <td><strong>Ім'я</strong> <span class=fri>&#9660</span></td>
+         <td><strong>Дата</strong></td>
+         <td><input type="search" class="search" placeholder="Search"</td>
+       </tr>
+       <tr>
+         <td><img src="./icon/Flaticon.svg" width="20" alt="Inbox">Файл.pdf</td>
+         <td class="ligh">3 хвилини тому</td>
+         <td>···</td>
+       </tr>
+       <tr>
+         <td><img src="./icon/Flaticon.svg" width="20" alt="Inbox">Файл.pdf</td>
+         <td class="ligh">Вчора</td>
+         <td>···</td>
+       </tr>
+       <tr>
+         <td><img src="./icon/Flaticon.svg" width="20" alt="Inbox">Файл.pdf</td>
+         <td class="ligh">3 квітня 2018 року</td>
+         <td>···</td>
+       </tr>
+     </table>
   </body>
 </html>
