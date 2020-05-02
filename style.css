@@ -4,19 +4,22 @@ body {
 }
 table {
   border: 3px solid #5e5b5b;
-  width: 600px;
+  border-collapse: separate;
+  border-spacing: 0px 0px;
+  width: 700px;
   border-radius: 10px;
   margin: 20px;
-  border-spacing: 0px;
   color: #cecfcd;
   font-size: 15px;
+  table-layout: fixed;
 }
 td:first-child {
-  width: 30%;
+  width: 20%;
 }
+
 td {
   border-bottom: 1px solid #5e5b5b;
-  padding: 10px;
+  height: 40px;
 }
 .fri {
   font-size: 15px;
@@ -26,14 +29,15 @@ td {
 }
 .imegn {
   float: right;
-  width: 58px;
+  width: 18%;
 }
 .search {
   border: 0px solid #3a3939;
   width: 200px;
   border-radius: 5px;
   background: #5e5b5b;
-  height: 24px;
-  width: 200px;
+  color: #cecfcd;
+  height: 35px;
+  width: 182px;
   outline: none;
 }
