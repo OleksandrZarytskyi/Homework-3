@@ -3,24 +3,37 @@ body {
   font-family: sans-serif;
 }
 table {
-  width: 600px;
-  border-spacing: 0;
   border: 3px solid #5e5b5b;
+  width: 600px;
   border-radius: 10px;
-  margin: 30px;
+  margin: 20px;
+  border-spacing: 0px;
   color: #cecfcd;
+  font-size: 15px;
+}
+td:first-child {
+  width: 30%;
 }
 td {
   border-bottom: 1px solid #5e5b5b;
   padding: 10px;
 }
 .fri {
-  font-size: 10px;
+  font-size: 15px;
 }
 .ligh {
   color: hsl(0, 3%, 59%);
 }
 .imegn {
   float: right;
-  width: 50px;
+  width: 58px;
+}
+.search {
+  border: 0px solid #3a3939;
+  width: 200px;
+  border-radius: 5px;
+  background: #5e5b5b;
+  height: 24px;
+  width: 200px;
+  outline: none;
 }
