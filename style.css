@@ -1,15 +1,15 @@
 body {
-  background: #3a3939;
+  background: #2c2c2c;
   font-family: sans-serif;
 }
 table {
-  border: 3px solid #5e5b5b;
+  border: 1px solid hsl(0, 3%, 59%);
   border-collapse: separate;
   border-spacing: 0px 0px;
-  width: 700px;
-  border-radius: 10px;
+  width: 731px;
+  border-radius: 5px;
   margin: 20px;
-  color: #cecfcd;
+  color: #cfcfcf;
   font-size: 15px;
   table-layout: fixed;
 }
@@ -18,9 +18,9 @@ td:first-child {
 }
 
 td {
-  border-bottom: 1px solid #5e5b5b;
+  border-bottom: 1px solid hsl(0, 3%, 59%);
   height: 35px;
-  padding: 0px 10px;
+  padding: 3px 10px;
 }
 .fri {
   font-size: 15px;
@@ -34,17 +34,18 @@ td {
 }
 .search {
   border: 0px solid #3a3939;
-  font-size: 14px;
-  padding-left: 20px;
-  width: 185px;
-  height: 30px;
+  font-size: 15px;
+  padding-left: 30px;
+  width: 194px;
+  height: 36px;
   margin-right: 150px;
   background-color: #444444;
   background-image: url(./icon/serch.png);
   background-size: 14px;
-  background-position: left 5px center;
+  background-position: left 10px center;
   background-repeat: no-repeat;
   border: none;
   border-radius: 5px;
   color: #cecfcd;
+  outline: none;
 }
