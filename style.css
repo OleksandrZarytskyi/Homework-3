@@ -32,6 +32,11 @@ td {
   float: right;
   width: 18%;
 }
+.imegne {
+  float: right;
+  width: 18%;
+  color: white;
+}
 .search {
   border: 0px solid #3a3939;
   font-size: 15px;
