@@ -34,12 +34,17 @@ td {
 }
 .search {
   border: 0px solid #3a3939;
-  width: 200px;
-  border-radius: 5px;
-  background: #5e5b5b;
-  color: #cecfcd;
-  height: 30px;
+  font-size: 14px;
+  padding-left: 20px;
   width: 185px;
-  outline: none;
-  padding: 0px 10px;
+  height: 30px;
+  margin-right: 150px;
+  background-color: #444444;
+  background-image: url(./icon/serch.png);
+  background-size: 14px;
+  background-position: left 5px center;
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 5px;
+  color: #cecfcd;
 }
